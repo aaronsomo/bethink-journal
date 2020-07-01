@@ -22,6 +22,7 @@
 		598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDD24AC30FE00F118CC /* Colors.swift */; };
 		598A9DE024AC312400F118CC /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDF24AC312400F118CC /* Day.swift */; };
 		598A9DE224AC317A00F118CC /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE124AC317A00F118CC /* Month.swift */; };
+		598A9DE524AC31EF00F118CC /* MoodModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE424AC31EF00F118CC /* MoodModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		598A9DDD24AC30FE00F118CC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		598A9DDF24AC312400F118CC /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		598A9DE124AC317A00F118CC /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		598A9DE424AC31EF00F118CC /* MoodModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				598A9DA924ABB25400F118CC /* ContentView.swift */,
 				598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */,
 				598A9DD824AC2FF400F118CC /* Helper.swift */,
+				598A9DE324AC31BA00F118CC /* Model Controller */,
 				598A9DDA24AC301800F118CC /* Model */,
 				598A9DAB24ABB25800F118CC /* Assets.xcassets */,
 				598A9DB024ABB25800F118CC /* LaunchScreen.storyboard */,
@@ -163,6 +166,14 @@
 				598A9DE124AC317A00F118CC /* Month.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		598A9DE324AC31BA00F118CC /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DE424AC31EF00F118CC /* MoodModelController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */,
 				598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */,
 				598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */,
+				598A9DE524AC31EF00F118CC /* MoodModelController.swift in Sources */,
 				598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */,
 				598A9DDC24AC302A00F118CC /* Mood.swift in Sources */,
 				598A9DE024AC312400F118CC /* Day.swift in Sources */,
