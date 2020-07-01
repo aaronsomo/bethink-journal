@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,9 @@
 		598A9DE824ACE9D000F118CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE724ACE9D000F118CC /* HomeView.swift */; };
 		598A9DEA24ACF00500F118CC /* MoodRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE924ACF00500F118CC /* MoodRowView.swift */; };
 		598A9DEC24ACF02C00F118CC /* AddMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DEB24ACF02C00F118CC /* AddMoodView.swift */; };
+		598A9DEE24ACF3F900F118CC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DED24ACF3F900F118CC /* CalendarView.swift */; };
+		598A9DF024ACF42C00F118CC /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DEF24ACF42C00F118CC /* WeekdaysView.swift */; };
+		598A9DF224ACF46600F118CC /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DF124ACF46600F118CC /* GridStack.swift */; };
 		8574C6A5297FC212E3AAEC1B /* Pods_Bethink_Journal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA686020FC0CC9B39D789CFA /* Pods_Bethink_Journal.framework */; };
 		951FA4EB90F3D9D44EAAD389 /* Pods_Bethink_Journal_Bethink_JournalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24596D901684F840A18A73A /* Pods_Bethink_Journal_Bethink_JournalUITests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +78,9 @@
 		598A9DE724ACE9D000F118CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		598A9DE924ACF00500F118CC /* MoodRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRowView.swift; sourceTree = "<group>"; };
 		598A9DEB24ACF02C00F118CC /* AddMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodView.swift; sourceTree = "<group>"; };
+		598A9DED24ACF3F900F118CC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		598A9DEF24ACF42C00F118CC /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		598A9DF124ACF46600F118CC /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		61AD89852EC7BAEA6A15931D /* Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8435786FD57F974042A90D9C /* Pods-Bethink Journal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal.debug.xcconfig"; path = "Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal.debug.xcconfig"; sourceTree = "<group>"; };
 		9755D69D63AC6A64F514E5B1 /* Pods-Bethink Journal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal.release.xcconfig"; path = "Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +212,9 @@
 				598A9DE724ACE9D000F118CC /* HomeView.swift */,
 				598A9DE924ACF00500F118CC /* MoodRowView.swift */,
 				598A9DEB24ACF02C00F118CC /* AddMoodView.swift */,
+				598A9DED24ACF3F900F118CC /* CalendarView.swift */,
+				598A9DEF24ACF42C00F118CC /* WeekdaysView.swift */,
+				598A9DF124ACF46600F118CC /* GridStack.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,7 +229,6 @@
 				AFF12BF744F0069BD8DD99ED /* Pods-Bethink JournalTests.debug.xcconfig */,
 				C00B1B5BF6EE22CF91386DAD /* Pods-Bethink JournalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -476,8 +484,11 @@
 				598A9DEA24ACF00500F118CC /* MoodRowView.swift in Sources */,
 				598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */,
 				598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */,
+				598A9DF224ACF46600F118CC /* GridStack.swift in Sources */,
 				598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */,
 				598A9DE524AC31EF00F118CC /* MoodModelController.swift in Sources */,
+				598A9DF024ACF42C00F118CC /* WeekdaysView.swift in Sources */,
+				598A9DEE24ACF3F900F118CC /* CalendarView.swift in Sources */,
 				598A9DEC24ACF02C00F118CC /* AddMoodView.swift in Sources */,
 				598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */,
 				598A9DDC24AC302A00F118CC /* Mood.swift in Sources */,
