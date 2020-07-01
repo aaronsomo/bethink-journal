@@ -19,6 +19,8 @@
 		598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */; };
 		598A9DD924AC2FF400F118CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DD824AC2FF400F118CC /* Helper.swift */; };
 		598A9DDC24AC302A00F118CC /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDB24AC302A00F118CC /* Mood.swift */; };
+		598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDD24AC30FE00F118CC /* Colors.swift */; };
+		598A9DE024AC312400F118CC /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDF24AC312400F118CC /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextField.swift; sourceTree = "<group>"; };
 		598A9DD824AC2FF400F118CC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		598A9DDB24AC302A00F118CC /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		598A9DDD24AC30FE00F118CC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		598A9DDF24AC312400F118CC /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				598A9DDB24AC302A00F118CC /* Mood.swift */,
+				598A9DDD24AC30FE00F118CC /* Colors.swift */,
+				598A9DDF24AC312400F118CC /* Day.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,9 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */,
+				598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */,
 				598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */,
 				598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */,
 				598A9DDC24AC302A00F118CC /* Mood.swift in Sources */,
+				598A9DE024AC312400F118CC /* Day.swift in Sources */,
 				598A9DAA24ABB25400F118CC /* ContentView.swift in Sources */,
 				598A9DA524ABB25300F118CC /* SceneDelegate.swift in Sources */,
 				598A9DD924AC2FF400F118CC /* Helper.swift in Sources */,
