@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2415A164DFD4375176B6C4EC /* Pods_Bethink_JournalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2420A1F46D81C8C62B9830 /* Pods_Bethink_JournalTests.framework */; };
 		598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA224ABB25300F118CC /* AppDelegate.swift */; };
 		598A9DA524ABB25300F118CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA424ABB25300F118CC /* SceneDelegate.swift */; };
 		598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA624ABB25300F118CC /* Bethink_Journal.xcdatamodeld */; };
@@ -24,6 +25,10 @@
 		598A9DE224AC317A00F118CC /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE124AC317A00F118CC /* Month.swift */; };
 		598A9DE524AC31EF00F118CC /* MoodModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE424AC31EF00F118CC /* MoodModelController.swift */; };
 		598A9DE824ACE9D000F118CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE724ACE9D000F118CC /* HomeView.swift */; };
+		598A9DEA24ACF00500F118CC /* MoodRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DE924ACF00500F118CC /* MoodRowView.swift */; };
+		598A9DEC24ACF02C00F118CC /* AddMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DEB24ACF02C00F118CC /* AddMoodView.swift */; };
+		8574C6A5297FC212E3AAEC1B /* Pods_Bethink_Journal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA686020FC0CC9B39D789CFA /* Pods_Bethink_Journal.framework */; };
+		951FA4EB90F3D9D44EAAD389 /* Pods_Bethink_Journal_Bethink_JournalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24596D901684F840A18A73A /* Pods_Bethink_Journal_Bethink_JournalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2420A1F46D81C8C62B9830 /* Pods_Bethink_JournalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bethink_JournalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A9D9F24ABB25300F118CC /* Bethink Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bethink Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A9DA224ABB25300F118CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		598A9DA424ABB25300F118CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +73,16 @@
 		598A9DE124AC317A00F118CC /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
 		598A9DE424AC31EF00F118CC /* MoodModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodModelController.swift; sourceTree = "<group>"; };
 		598A9DE724ACE9D000F118CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		598A9DE924ACF00500F118CC /* MoodRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRowView.swift; sourceTree = "<group>"; };
+		598A9DEB24ACF02C00F118CC /* AddMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodView.swift; sourceTree = "<group>"; };
+		61AD89852EC7BAEA6A15931D /* Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8435786FD57F974042A90D9C /* Pods-Bethink Journal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal.debug.xcconfig"; path = "Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal.debug.xcconfig"; sourceTree = "<group>"; };
+		9755D69D63AC6A64F514E5B1 /* Pods-Bethink Journal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal.release.xcconfig"; path = "Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal.release.xcconfig"; sourceTree = "<group>"; };
+		A257DB2118D721CF7D252DAB /* Pods-Bethink Journal-Bethink JournalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink Journal-Bethink JournalUITests.release.xcconfig"; path = "Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFF12BF744F0069BD8DD99ED /* Pods-Bethink JournalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink JournalTests.debug.xcconfig"; path = "Target Support Files/Pods-Bethink JournalTests/Pods-Bethink JournalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA686020FC0CC9B39D789CFA /* Pods_Bethink_Journal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bethink_Journal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00B1B5BF6EE22CF91386DAD /* Pods-Bethink JournalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bethink JournalTests.release.xcconfig"; path = "Target Support Files/Pods-Bethink JournalTests/Pods-Bethink JournalTests.release.xcconfig"; sourceTree = "<group>"; };
+		E24596D901684F840A18A73A /* Pods_Bethink_Journal_Bethink_JournalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bethink_Journal_Bethink_JournalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8574C6A5297FC212E3AAEC1B /* Pods_Bethink_Journal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2415A164DFD4375176B6C4EC /* Pods_Bethink_JournalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951FA4EB90F3D9D44EAAD389 /* Pods_Bethink_Journal_Bethink_JournalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +120,8 @@
 				598A9DBB24ABB25800F118CC /* Bethink JournalTests */,
 				598A9DC624ABB25800F118CC /* Bethink JournalUITests */,
 				598A9DA024ABB25300F118CC /* Products */,
+				7FA9EF325FDF6429191B2EC8 /* Pods */,
+				B9C71D6661CCF8D06FA37D15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,8 +204,34 @@
 			children = (
 				598A9DA924ABB25400F118CC /* ContentView.swift */,
 				598A9DE724ACE9D000F118CC /* HomeView.swift */,
+				598A9DE924ACF00500F118CC /* MoodRowView.swift */,
+				598A9DEB24ACF02C00F118CC /* AddMoodView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7FA9EF325FDF6429191B2EC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8435786FD57F974042A90D9C /* Pods-Bethink Journal.debug.xcconfig */,
+				9755D69D63AC6A64F514E5B1 /* Pods-Bethink Journal.release.xcconfig */,
+				61AD89852EC7BAEA6A15931D /* Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig */,
+				A257DB2118D721CF7D252DAB /* Pods-Bethink Journal-Bethink JournalUITests.release.xcconfig */,
+				AFF12BF744F0069BD8DD99ED /* Pods-Bethink JournalTests.debug.xcconfig */,
+				C00B1B5BF6EE22CF91386DAD /* Pods-Bethink JournalTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9C71D6661CCF8D06FA37D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA686020FC0CC9B39D789CFA /* Pods_Bethink_Journal.framework */,
+				E24596D901684F840A18A73A /* Pods_Bethink_Journal_Bethink_JournalUITests.framework */,
+				1D2420A1F46D81C8C62B9830 /* Pods_Bethink_JournalTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 598A9DCC24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink Journal" */;
 			buildPhases = (
+				984F97D4E85F4789ED3D34F5 /* [CP] Check Pods Manifest.lock */,
 				598A9D9B24ABB25300F118CC /* Sources */,
 				598A9D9C24ABB25300F118CC /* Frameworks */,
 				598A9D9D24ABB25300F118CC /* Resources */,
+				A60D588F44DB2012F6F42603 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 598A9DCF24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalTests" */;
 			buildPhases = (
+				1F2A2FA51EC0ABD68253CB3A /* [CP] Check Pods Manifest.lock */,
 				598A9DB424ABB25800F118CC /* Sources */,
 				598A9DB524ABB25800F118CC /* Frameworks */,
 				598A9DB624ABB25800F118CC /* Resources */,
@@ -229,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 598A9DD224ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalUITests" */;
 			buildPhases = (
+				CEFEF447BEB8A9BCE96FCB25 /* [CP] Check Pods Manifest.lock */,
 				598A9DBF24ABB25800F118CC /* Sources */,
 				598A9DC024ABB25800F118CC /* Frameworks */,
 				598A9DC124ABB25800F118CC /* Resources */,
+				24D2CC8BB5ED9B54A4B4C215 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,15 +365,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F2A2FA51EC0ABD68253CB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bethink JournalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24D2CC8BB5ED9B54A4B4C215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal-Bethink JournalUITests/Pods-Bethink Journal-Bethink JournalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984F97D4E85F4789ED3D34F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bethink Journal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A60D588F44DB2012F6F42603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bethink Journal/Pods-Bethink Journal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFEF447BEB8A9BCE96FCB25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bethink Journal-Bethink JournalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		598A9D9B24ABB25300F118CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598A9DEA24ACF00500F118CC /* MoodRowView.swift in Sources */,
 				598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */,
 				598A9DDE24AC30FE00F118CC /* Colors.swift in Sources */,
 				598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */,
 				598A9DE524AC31EF00F118CC /* MoodModelController.swift in Sources */,
+				598A9DEC24ACF02C00F118CC /* AddMoodView.swift in Sources */,
 				598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */,
 				598A9DDC24AC302A00F118CC /* Mood.swift in Sources */,
 				598A9DE024AC312400F118CC /* Day.swift in Sources */,
@@ -492,6 +649,7 @@
 		};
 		598A9DCD24ABB25800F118CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8435786FD57F974042A90D9C /* Pods-Bethink Journal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +670,7 @@
 		};
 		598A9DCE24ABB25800F118CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9755D69D63AC6A64F514E5B1 /* Pods-Bethink Journal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +691,7 @@
 		};
 		598A9DD024ABB25800F118CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF12BF744F0069BD8DD99ED /* Pods-Bethink JournalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +714,7 @@
 		};
 		598A9DD124ABB25800F118CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00B1B5BF6EE22CF91386DAD /* Pods-Bethink JournalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +737,7 @@
 		};
 		598A9DD324ABB25800F118CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AD89852EC7BAEA6A15931D /* Pods-Bethink Journal-Bethink JournalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +758,7 @@
 		};
 		598A9DD424ABB25800F118CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A257DB2118D721CF7D252DAB /* Pods-Bethink Journal-Bethink JournalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

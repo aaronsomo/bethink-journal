@@ -1,0 +1,6 @@
+framework module Pods_Bethink_Journal_Bethink_JournalUITests {
+  umbrella header "Pods-Bethink Journal-Bethink JournalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
