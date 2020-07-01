@@ -89,8 +89,9 @@ struct HomeView: View {
         
             AddMoodView(moodModelController: self.moodModelController)
             
-        }.animation(.default).navigationBarTitle("Mood Diary").navigationBarItems(trailing: NavigationLink(destination: CalendarView(start: Date(), monthsToShow: 1, daysSelectable: true, moodController: moodModelController), label: {
-            Image(systemName: "calendar")
+        }.animation(.default).navigationBarTitle("Feels").navigationBarItems(trailing: NavigationLink(destination: CalendarView(start: Date(), monthsToShow: 1, daysSelectable: true, moodController: moodModelController), label: {
+            Image(systemName: "calendar").resizable()
+                .frame(width: 45.0, height: 45.0)
         }))
             
         }.accentColor(.black)

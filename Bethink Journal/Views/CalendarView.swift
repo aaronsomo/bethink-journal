@@ -38,7 +38,7 @@ public struct CalendarView: View {
                 }
             }
             Spacer()
-        }.padding().navigationBarTitle("Mood Calendar", displayMode: .inline)
+        }.padding().navigationBarTitle("Feels Calendar", displayMode: .inline)
     }
 
     func nextMonth(currentMonth: Date, add: Int) -> Date {

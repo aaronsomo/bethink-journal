@@ -22,7 +22,7 @@ struct AddMoodView: View {
     
     var body: some View {
         VStack(spacing: 30) {
-            Text("Add a Mood Entry").font(.largeTitle)
+            Text("Add a Feel").font(.largeTitle)
             HStack {
                 Button(action: {
                     self.emotionState = .happy
