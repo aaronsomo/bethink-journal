@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA224ABB25300F118CC /* AppDelegate.swift */; };
+		598A9DA524ABB25300F118CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA424ABB25300F118CC /* SceneDelegate.swift */; };
+		598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA624ABB25300F118CC /* Bethink_Journal.xcdatamodeld */; };
+		598A9DAA24ABB25400F118CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DA924ABB25400F118CC /* ContentView.swift */; };
+		598A9DAC24ABB25800F118CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A9DAB24ABB25800F118CC /* Assets.xcassets */; };
+		598A9DAF24ABB25800F118CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A9DAE24ABB25800F118CC /* Preview Assets.xcassets */; };
+		598A9DB224ABB25800F118CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A9DB024ABB25800F118CC /* LaunchScreen.storyboard */; };
+		598A9DBD24ABB25800F118CC /* Bethink_JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DBC24ABB25800F118CC /* Bethink_JournalTests.swift */; };
+		598A9DC824ABB25800F118CC /* Bethink_JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DC724ABB25800F118CC /* Bethink_JournalUITests.swift */; };
+		598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */; };
+		598A9DD924AC2FF400F118CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DD824AC2FF400F118CC /* Helper.swift */; };
+		598A9DDC24AC302A00F118CC /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A9DDB24AC302A00F118CC /* Mood.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		598A9DB924ABB25800F118CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598A9D9724ABB25300F118CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598A9D9E24ABB25300F118CC;
+			remoteInfo = "Bethink Journal";
+		};
+		598A9DC424ABB25800F118CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598A9D9724ABB25300F118CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598A9D9E24ABB25300F118CC;
+			remoteInfo = "Bethink Journal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		598A9D9F24ABB25300F118CC /* Bethink Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bethink Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A9DA224ABB25300F118CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		598A9DA424ABB25300F118CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		598A9DA724ABB25300F118CC /* Bethink_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bethink_Journal.xcdatamodel; sourceTree = "<group>"; };
+		598A9DA924ABB25400F118CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		598A9DAB24ABB25800F118CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598A9DAE24ABB25800F118CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		598A9DB124ABB25800F118CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598A9DB324ABB25800F118CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598A9DB824ABB25800F118CC /* Bethink JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bethink JournalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A9DBC24ABB25800F118CC /* Bethink_JournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bethink_JournalTests.swift; sourceTree = "<group>"; };
+		598A9DBE24ABB25800F118CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598A9DC324ABB25800F118CC /* Bethink JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bethink JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A9DC724ABB25800F118CC /* Bethink_JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bethink_JournalUITests.swift; sourceTree = "<group>"; };
+		598A9DC924ABB25800F118CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextField.swift; sourceTree = "<group>"; };
+		598A9DD824AC2FF400F118CC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		598A9DDB24AC302A00F118CC /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598A9D9C24ABB25300F118CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DB524ABB25800F118CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DC024ABB25800F118CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598A9D9624ABB25300F118CC = {
+			isa = PBXGroup;
+			children = (
+				598A9DA124ABB25300F118CC /* Bethink Journal */,
+				598A9DBB24ABB25800F118CC /* Bethink JournalTests */,
+				598A9DC624ABB25800F118CC /* Bethink JournalUITests */,
+				598A9DA024ABB25300F118CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598A9DA024ABB25300F118CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598A9D9F24ABB25300F118CC /* Bethink Journal.app */,
+				598A9DB824ABB25800F118CC /* Bethink JournalTests.xctest */,
+				598A9DC324ABB25800F118CC /* Bethink JournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598A9DA124ABB25300F118CC /* Bethink Journal */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DA224ABB25300F118CC /* AppDelegate.swift */,
+				598A9DA424ABB25300F118CC /* SceneDelegate.swift */,
+				598A9DA924ABB25400F118CC /* ContentView.swift */,
+				598A9DD624AC2FD800F118CC /* MultiLineTextField.swift */,
+				598A9DD824AC2FF400F118CC /* Helper.swift */,
+				598A9DDA24AC301800F118CC /* Model */,
+				598A9DAB24ABB25800F118CC /* Assets.xcassets */,
+				598A9DB024ABB25800F118CC /* LaunchScreen.storyboard */,
+				598A9DB324ABB25800F118CC /* Info.plist */,
+				598A9DA624ABB25300F118CC /* Bethink_Journal.xcdatamodeld */,
+				598A9DAD24ABB25800F118CC /* Preview Content */,
+			);
+			path = "Bethink Journal";
+			sourceTree = "<group>";
+		};
+		598A9DAD24ABB25800F118CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DAE24ABB25800F118CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		598A9DBB24ABB25800F118CC /* Bethink JournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DBC24ABB25800F118CC /* Bethink_JournalTests.swift */,
+				598A9DBE24ABB25800F118CC /* Info.plist */,
+			);
+			path = "Bethink JournalTests";
+			sourceTree = "<group>";
+		};
+		598A9DC624ABB25800F118CC /* Bethink JournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DC724ABB25800F118CC /* Bethink_JournalUITests.swift */,
+				598A9DC924ABB25800F118CC /* Info.plist */,
+			);
+			path = "Bethink JournalUITests";
+			sourceTree = "<group>";
+		};
+		598A9DDA24AC301800F118CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				598A9DDB24AC302A00F118CC /* Mood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598A9D9E24ABB25300F118CC /* Bethink Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598A9DCC24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink Journal" */;
+			buildPhases = (
+				598A9D9B24ABB25300F118CC /* Sources */,
+				598A9D9C24ABB25300F118CC /* Frameworks */,
+				598A9D9D24ABB25300F118CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bethink Journal";
+			productName = "Bethink Journal";
+			productReference = 598A9D9F24ABB25300F118CC /* Bethink Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		598A9DB724ABB25800F118CC /* Bethink JournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598A9DCF24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalTests" */;
+			buildPhases = (
+				598A9DB424ABB25800F118CC /* Sources */,
+				598A9DB524ABB25800F118CC /* Frameworks */,
+				598A9DB624ABB25800F118CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598A9DBA24ABB25800F118CC /* PBXTargetDependency */,
+			);
+			name = "Bethink JournalTests";
+			productName = "Bethink JournalTests";
+			productReference = 598A9DB824ABB25800F118CC /* Bethink JournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		598A9DC224ABB25800F118CC /* Bethink JournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598A9DD224ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalUITests" */;
+			buildPhases = (
+				598A9DBF24ABB25800F118CC /* Sources */,
+				598A9DC024ABB25800F118CC /* Frameworks */,
+				598A9DC124ABB25800F118CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598A9DC524ABB25800F118CC /* PBXTargetDependency */,
+			);
+			name = "Bethink JournalUITests";
+			productName = "Bethink JournalUITests";
+			productReference = 598A9DC324ABB25800F118CC /* Bethink JournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598A9D9724ABB25300F118CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aaron Southammavong";
+				TargetAttributes = {
+					598A9D9E24ABB25300F118CC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					598A9DB724ABB25800F118CC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 598A9D9E24ABB25300F118CC;
+					};
+					598A9DC224ABB25800F118CC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 598A9D9E24ABB25300F118CC;
+					};
+				};
+			};
+			buildConfigurationList = 598A9D9A24ABB25300F118CC /* Build configuration list for PBXProject "Bethink Journal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598A9D9624ABB25300F118CC;
+			productRefGroup = 598A9DA024ABB25300F118CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598A9D9E24ABB25300F118CC /* Bethink Journal */,
+				598A9DB724ABB25800F118CC /* Bethink JournalTests */,
+				598A9DC224ABB25800F118CC /* Bethink JournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598A9D9D24ABB25300F118CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A9DB224ABB25800F118CC /* LaunchScreen.storyboard in Resources */,
+				598A9DAF24ABB25800F118CC /* Preview Assets.xcassets in Resources */,
+				598A9DAC24ABB25800F118CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DB624ABB25800F118CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DC124ABB25800F118CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598A9D9B24ABB25300F118CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A9DA324ABB25300F118CC /* AppDelegate.swift in Sources */,
+				598A9DD724AC2FD800F118CC /* MultiLineTextField.swift in Sources */,
+				598A9DA824ABB25300F118CC /* Bethink_Journal.xcdatamodeld in Sources */,
+				598A9DDC24AC302A00F118CC /* Mood.swift in Sources */,
+				598A9DAA24ABB25400F118CC /* ContentView.swift in Sources */,
+				598A9DA524ABB25300F118CC /* SceneDelegate.swift in Sources */,
+				598A9DD924AC2FF400F118CC /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DB424ABB25800F118CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A9DBD24ABB25800F118CC /* Bethink_JournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598A9DBF24ABB25800F118CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A9DC824ABB25800F118CC /* Bethink_JournalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		598A9DBA24ABB25800F118CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598A9D9E24ABB25300F118CC /* Bethink Journal */;
+			targetProxy = 598A9DB924ABB25800F118CC /* PBXContainerItemProxy */;
+		};
+		598A9DC524ABB25800F118CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598A9D9E24ABB25300F118CC /* Bethink Journal */;
+			targetProxy = 598A9DC424ABB25800F118CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		598A9DB024ABB25800F118CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A9DB124ABB25800F118CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598A9DCA24ABB25800F118CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598A9DCB24ABB25800F118CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598A9DCD24ABB25800F118CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bethink Journal/Preview Content\"";
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bethink Journal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		598A9DCE24ABB25800F118CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bethink Journal/Preview Content\"";
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bethink Journal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		598A9DD024ABB25800F118CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				INFOPLIST_FILE = "Bethink JournalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bethink Journal.app/Bethink Journal";
+			};
+			name = Debug;
+		};
+		598A9DD124ABB25800F118CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				INFOPLIST_FILE = "Bethink JournalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bethink Journal.app/Bethink Journal";
+			};
+			name = Release;
+		};
+		598A9DD324ABB25800F118CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				INFOPLIST_FILE = "Bethink JournalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bethink Journal";
+			};
+			name = Debug;
+		};
+		598A9DD424ABB25800F118CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YW9L6CXK;
+				INFOPLIST_FILE = "Bethink JournalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Terror.Bethink-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bethink Journal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598A9D9A24ABB25300F118CC /* Build configuration list for PBXProject "Bethink Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A9DCA24ABB25800F118CC /* Debug */,
+				598A9DCB24ABB25800F118CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598A9DCC24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A9DCD24ABB25800F118CC /* Debug */,
+				598A9DCE24ABB25800F118CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598A9DCF24ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A9DD024ABB25800F118CC /* Debug */,
+				598A9DD124ABB25800F118CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598A9DD224ABB25800F118CC /* Build configuration list for PBXNativeTarget "Bethink JournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A9DD324ABB25800F118CC /* Debug */,
+				598A9DD424ABB25800F118CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		598A9DA624ABB25300F118CC /* Bethink_Journal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				598A9DA724ABB25300F118CC /* Bethink_Journal.xcdatamodel */,
+			);
+			currentVersion = 598A9DA724ABB25300F118CC /* Bethink_Journal.xcdatamodel */;
+			path = Bethink_Journal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 598A9D9724ABB25300F118CC /* Project object */;
+}
